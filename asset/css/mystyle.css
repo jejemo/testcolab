@@ -1,0 +1,211 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 72px;
+}
+
+/* header */
+.header {
+    background-color: transparent;
+    min-height: 350px;
+    align-items: center;
+}
+
+.header .jumbotron {
+    background-color: transparent;
+    padding: 0;
+    align-items: center;
+}
+
+
+.header h1 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #222831;
+}
+
+.header p {
+    font-size: 12px;
+    color: #393e46;
+}
+
+.header hr {
+    width: 100px;
+    border-top: 3px solid #f5587b;
+    border-radius: 5px;
+}
+
+/* Porto */
+.porto {
+    background-color: transparent;
+    margin-top: -50px;
+    margin-bottom: -30px;
+}
+
+.porto .jumbotron {
+    background-color: transparent;
+}
+
+.porto .rounded-circle {
+    width: 120px;
+    height: 120px;
+    margin-top: 48px;
+    margin-bottom: -20px;
+}
+
+.porto h2 {
+    font-size: 22px;
+    padding-top: 48px;
+    color: #222831;
+}
+
+.porto p {
+    font-size: 14px;
+    padding-left: 12px;
+    color: #393e46;
+}
+
+
+.porto img {
+    /* width: 100%;
+    height: 50%;*/
+    margin: 6px 0;
+    border-radius: 10px;
+}
+
+
+/* subs */
+.subs {
+    margin-top: -50px;
+}
+
+.subs .jumbotron {
+    background-color: transparent;
+}
+
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 72px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #272727;
+}
+
+.footer p {
+    font-size: 14px;
+    color: white;
+    align-items: center;
+    padding-top: 25px;
+}
+
+i {
+    color: #ff0d24;
+}
+
+@media (min-width: 768px) {
+
+    /* porto */
+    .header h1 {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 84px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+
+    .header hr {
+        width: 160px;
+        border-top: 3px solid #f5587b;
+        border-radius: 5px;
+    }
+
+    /* porto */
+    .porto .center {
+        text-align: center;
+    }
+
+    .porto .rounded-circle {
+        width: 140px;
+        height: 140px;
+        margin-top: 48px;
+        align: center
+    }
+
+    .porto h2 {
+        font-size: 24px;
+        padding-top: 48px;
+    }
+
+    .porto p {
+        font-size: 16px;
+        padding-left: 12px;
+    }
+
+    /* subs */
+    .subs {
+        margin-top: -100px;
+    }
+
+    /* footer */
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1023px) {
+
+    /* header */
+    .header h1 {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 100px;
+    }
+
+    .header p {
+        font-size: 24px;
+    }
+
+    .header hr {
+        width: 200px;
+        border-top: 3px solid #f5587b;
+        border-radius: 5px;
+    }
+
+    /* porto */
+    .porto .center {
+        text-align: center;
+    }
+
+    .porto .rounded-circle {
+        width: 160px;
+        height: 160px;
+        margin-top: 48px;
+        align: center
+    }
+
+    .porto h2 {
+        font-size: 28px;
+        padding-top: 48px;
+    }
+
+    .porto p {
+        font-size: 20px;
+        padding-left: 12px;
+    }
+}
